@@ -26,9 +26,10 @@ class Home extends Component{
                         <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
                         <li><a className="smoothscroll" href="#about">About</a></li>
                         <li><a className="smoothscroll" href="#resume">Resume</a></li>
-                        <li><a className="smoothscroll" href="#portfolio">Works</a></li>
+                        <li><a className="smoothscroll" href="#portfolio">Projects</a></li>
                         <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
                         <li><a className="smoothscroll" href="#contact">Contact</a></li>
+                        <li><a className="smoothscroll" href="#profile">Profile</a></li>
                     </ul>
 
                 </nav>
@@ -41,9 +42,19 @@ class Home extends Component{
                         <ul className="social">
                         {networks}
                         </ul>
+                        <hr />
+                        <div className="btn-toolbar">
+                                <button type="button" className="btn btn-lg btn-primary btn-sm btn-space">
+                                    <a href="#portfolio">View Projects</a>
+                                </button>
+                                 <button type="button" className="btn btn-lg btn-primary btn-sm btn-space"> 
+                                    <a href="#resume">View Resume</a>
+                                </button>
+                        </div>
                     </div>
+                    
                 </div>
-
+                
                 <p className="scrolldown">
                     <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
                 </p>
