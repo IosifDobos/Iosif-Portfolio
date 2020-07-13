@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Iosif-Portfolio/static/css/main.1041d9e6.chunk.css",
+    "main.js": "/Iosif-Portfolio/static/js/main.cfd26aba.chunk.js",
+    "main.js.map": "/Iosif-Portfolio/static/js/main.cfd26aba.chunk.js.map",
+    "runtime-main.js": "/Iosif-Portfolio/static/js/runtime-main.e2eea88f.js",
+    "runtime-main.js.map": "/Iosif-Portfolio/static/js/runtime-main.e2eea88f.js.map",
+    "static/js/2.3c3e037f.chunk.js": "/Iosif-Portfolio/static/js/2.3c3e037f.chunk.js",
+    "static/js/2.3c3e037f.chunk.js.map": "/Iosif-Portfolio/static/js/2.3c3e037f.chunk.js.map",
+    "index.html": "/Iosif-Portfolio/index.html",
+    "precache-manifest.c41dd7bbae521451b46d0d7b1e9e88a2.js": "/Iosif-Portfolio/precache-manifest.c41dd7bbae521451b46d0d7b1e9e88a2.js",
+    "service-worker.js": "/Iosif-Portfolio/service-worker.js",
+    "static/css/main.1041d9e6.chunk.css.map": "/Iosif-Portfolio/static/css/main.1041d9e6.chunk.css.map",
+    "static/js/2.3c3e037f.chunk.js.LICENSE.txt": "/Iosif-Portfolio/static/js/2.3c3e037f.chunk.js.LICENSE.txt",
+    "static/media/github_image.png": "/Iosif-Portfolio/static/media/github_image.c7ff3dfe.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e2eea88f.js",
+    "static/js/2.3c3e037f.chunk.js",
+    "static/css/main.1041d9e6.chunk.css",
+    "static/js/main.cfd26aba.chunk.js"
+  ]
+}
