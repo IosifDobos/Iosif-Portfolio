@@ -80,7 +80,7 @@ class About extends Component {
                             <i className="fa fa-css3"></i>
                             <h3 className="white-color">Dev Ops</h3>
                             <p>
-                                I have pursued by internship at Revenue, being involved in a DevOps team working with tools like Jenkins and Doker
+                                I have pursued my internship at Revenue, being involved in a DevOps team working with tools like Jenkins and Doker
                             </p>
                         </div>
                     </div>
