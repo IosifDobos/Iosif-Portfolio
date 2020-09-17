@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Iosif-Portfolio/static/css/main.1041d9e6.chunk.css",
-    "main.js": "/Iosif-Portfolio/static/js/main.cfd26aba.chunk.js",
-    "main.js.map": "/Iosif-Portfolio/static/js/main.cfd26aba.chunk.js.map",
+    "main.js": "/Iosif-Portfolio/static/js/main.831a2580.chunk.js",
+    "main.js.map": "/Iosif-Portfolio/static/js/main.831a2580.chunk.js.map",
     "runtime-main.js": "/Iosif-Portfolio/static/js/runtime-main.e2eea88f.js",
     "runtime-main.js.map": "/Iosif-Portfolio/static/js/runtime-main.e2eea88f.js.map",
     "static/js/2.3c3e037f.chunk.js": "/Iosif-Portfolio/static/js/2.3c3e037f.chunk.js",
     "static/js/2.3c3e037f.chunk.js.map": "/Iosif-Portfolio/static/js/2.3c3e037f.chunk.js.map",
     "index.html": "/Iosif-Portfolio/index.html",
-    "precache-manifest.c41dd7bbae521451b46d0d7b1e9e88a2.js": "/Iosif-Portfolio/precache-manifest.c41dd7bbae521451b46d0d7b1e9e88a2.js",
+    "precache-manifest.35fd1037e4d0445761249ad98df2485e.js": "/Iosif-Portfolio/precache-manifest.35fd1037e4d0445761249ad98df2485e.js",
     "service-worker.js": "/Iosif-Portfolio/service-worker.js",
     "static/css/main.1041d9e6.chunk.css.map": "/Iosif-Portfolio/static/css/main.1041d9e6.chunk.css.map",
     "static/js/2.3c3e037f.chunk.js.LICENSE.txt": "/Iosif-Portfolio/static/js/2.3c3e037f.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.e2eea88f.js",
     "static/js/2.3c3e037f.chunk.js",
     "static/css/main.1041d9e6.chunk.css",
-    "static/js/main.cfd26aba.chunk.js"
+    "static/js/main.831a2580.chunk.js"
   ]
 }

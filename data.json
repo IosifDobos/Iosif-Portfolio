@@ -19,7 +19,7 @@
       "social":[
         {
           "name":"facebook",
-          "url":"http://facebook.com/tim.baker.906",
+          "url":"http://facebook.com/bogdandobos",
           "className":"fa fa-facebook"
         },
         {
@@ -29,27 +29,27 @@
         },
         {
           "name":"medium",
-          "url":"http://googleplus.com/tbakerx",
+          "url":"http://medium.com/",
           "className":"fa fa-medium"
         },
         {
           "name":"linkedin",
-          "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+          "url":"https://www.linkedin.com/in/iosif-dobos/",
           "className":"fa fa-linkedin"
         },
         {
           "name":"instagram",
-          "url":"http://instagram.com/tbaker_x",
+          "url":"http://instagram.com/josephberelly",
           "className":"fa fa-instagram"
         },
         {
           "name":"github",
-          "url":"http://github.com/tbakerx",
+          "url":"http://github.com/IosifDobos",
           "className":"fa fa-github"
         },
         {
             "name":"gitlab",
-            "url":"http://github.com/tbakerx",
+            "url":"http://github.com/IosifDobos",
             "className":"fa fa-gitlab"
           },
         {
@@ -119,10 +119,6 @@
           "level":"80%"
         },
         {
-          "name":"Illustrator",
-          "level":"55%"
-        },
-        {
           "name":"React",
           "level":"80%"
         },
@@ -147,34 +143,28 @@
     "portfolio":{
       "projects": [
         {
-          "title":"Canadian Wanderlust",
-          "category":"My Travel Blog for my post-university travels",
+          "title":"Smart-Nurse",
+          "category":"App build for my final year project",
           "image":"canadian-wanderlust.jpg",
-          "url":"https://www.canadianwanderlust.com"
+          "url":"https://gitlab.com/IosifDobos/only-react-native"
         },
         {
-          "title":"Fury Fighting Gear",
-          "category":"(offline now) A fighting gear company I started",
+          "title":"Iosif-Portfolio",
+          "category":"React based resume website template",
           "image":"fury-fighting-gear.jpg",
-          "url":"http://www.timbakerdev.com"
+          "url":"https://github.com/IosifDobos/Iosif-Portfolio"
         },
         {
-          "title":"Original Thai Food",
-          "category":"Website I built for a restaurant I like in Thailand",
+          "title":"Medieval Game",
+          "category":"Game created for year 2 OOP module",
           "image":"original-thai-food.jpg",
-          "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+          "url":"https://github.com/IosifDobos/JoeMedievalGame"
         },
         {
-          "title":"Resume Website",
-          "category":"A React based resume website template",
+          "title":"Book Reservation Website",
+          "category":"A Book Reservation website using HTML, CSS and PHP",
           "image":"resume-website.jpg",
-          "url":"http://www.timbakerdev.com"
-        },
-        {
-          "title":"Smirkspace",
-          "category":"(MVP Only) A React and Meteor based chat University project.",
-          "image":"smirkspace.jpg",
-          "url":"http://www.smirkspace.com"
+          "url":"https://github.com/IosifDobos/Web-Development"
         }
       ]
     },

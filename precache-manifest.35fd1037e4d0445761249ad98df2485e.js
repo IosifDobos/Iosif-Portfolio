@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3addcd162f3a107cd071dea2c3b01af4",
+    "revision": "10e135612d56d8490af8f2448f5f59ba",
     "url": "/Iosif-Portfolio/index.html"
   },
   {
-    "revision": "ed176295dfffd228d290",
+    "revision": "9fe0156e4c6131d0be75",
     "url": "/Iosif-Portfolio/static/css/main.1041d9e6.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Iosif-Portfolio/static/js/2.3c3e037f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ed176295dfffd228d290",
-    "url": "/Iosif-Portfolio/static/js/main.cfd26aba.chunk.js"
+    "revision": "9fe0156e4c6131d0be75",
+    "url": "/Iosif-Portfolio/static/js/main.831a2580.chunk.js"
   },
   {
     "revision": "306ad13728d7fb06f489",
