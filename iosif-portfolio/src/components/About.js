@@ -5,18 +5,6 @@ import profile from '../components/assets/img/github_image.png'
 class About extends Component {
 
     render() {
-        if(this.props.data){
-            var name = this.props.data.name;
-            var bio = this.props.data.bio;
-            var street = this.props.data.address.street;
-            var city = this.props.data.address.city;
-            var state = this.props.data.address.state;
-            var zip = this.props.data.address.zip;
-            var phone= this.props.data.phone;
-            var email = this.props.data.email;
-            var resumeDownload = this.props.data.resumedownload;
-        }
-
         return(
             <section id="about">
                 <div className="row">
@@ -26,22 +14,28 @@ class About extends Component {
                     <div className="nine columns main-col">
                         <h2>About Me</h2>
 
-                        <p>{bio}</p>
+                        <p>
+                            I'm a graduate student at Technology University Dublin with a degree in Computer Science. 
+                            I have pursue my internship at Revenue where I have been involved in three internal 
+                            projects working with programming languages such as AngularJS, jQuery and Java and Jenkins 
+                            to test and deploy the applications. I love to learn and explore new technologies and often 
+                            amazed by how technology has grown in the recent years.
+                        </p>
                         <div className="row">
                         <div className="columns contact-details">
                             <h2>Contact Details</h2>
                             <p className="address">
-                                    <span>{name}</span><br />
-                                    <span>{street}<br />
-                                            {city} {state}, {zip}
+                                    <span>Iosif B. Dobos</span><br />
+                                    <span>Cedarwood Rise<br />
+                                            Glasnevin, Dublin 11
                             </span><br />
-                                    <span>{phone}</span><br />
-                                <span>{email}</span>
+                                    <span>+353894199006</span><br />
+                                <span>iosifdobos22@gmail.com</span>
                                 </p>
                         </div>
                         <div className="columns download">
                             <p>
-                                <a href={resumeDownload} className="button"><i className="fa fa-download"></i>Download Resume</a>
+                                <a href="#" className="button"><i className="fa fa-download"></i>Download Resume</a>
                             </p>
                         </div>
                         </div>
