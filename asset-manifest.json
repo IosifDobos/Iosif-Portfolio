@@ -1,23 +1,27 @@
 {
   "files": {
     "main.css": "/Iosif-Portfolio/static/css/main.1041d9e6.chunk.css",
-    "main.js": "/Iosif-Portfolio/static/js/main.90e28cd1.chunk.js",
-    "main.js.map": "/Iosif-Portfolio/static/js/main.90e28cd1.chunk.js.map",
+    "main.js": "/Iosif-Portfolio/static/js/main.d5dcb414.chunk.js",
+    "main.js.map": "/Iosif-Portfolio/static/js/main.d5dcb414.chunk.js.map",
     "runtime-main.js": "/Iosif-Portfolio/static/js/runtime-main.e2eea88f.js",
     "runtime-main.js.map": "/Iosif-Portfolio/static/js/runtime-main.e2eea88f.js.map",
-    "static/js/2.3c3e037f.chunk.js": "/Iosif-Portfolio/static/js/2.3c3e037f.chunk.js",
-    "static/js/2.3c3e037f.chunk.js.map": "/Iosif-Portfolio/static/js/2.3c3e037f.chunk.js.map",
+    "static/js/2.75dfb5b9.chunk.js": "/Iosif-Portfolio/static/js/2.75dfb5b9.chunk.js",
+    "static/js/2.75dfb5b9.chunk.js.map": "/Iosif-Portfolio/static/js/2.75dfb5b9.chunk.js.map",
     "index.html": "/Iosif-Portfolio/index.html",
-    "precache-manifest.44e5167da6f7ba1f0d5aaf22592f993e.js": "/Iosif-Portfolio/precache-manifest.44e5167da6f7ba1f0d5aaf22592f993e.js",
+    "precache-manifest.e3c774932cfe50c8b8e42efe12be1ae0.js": "/Iosif-Portfolio/precache-manifest.e3c774932cfe50c8b8e42efe12be1ae0.js",
     "service-worker.js": "/Iosif-Portfolio/service-worker.js",
     "static/css/main.1041d9e6.chunk.css.map": "/Iosif-Portfolio/static/css/main.1041d9e6.chunk.css.map",
-    "static/js/2.3c3e037f.chunk.js.LICENSE.txt": "/Iosif-Portfolio/static/js/2.3c3e037f.chunk.js.LICENSE.txt",
-    "static/media/github_image.png": "/Iosif-Portfolio/static/media/github_image.c7ff3dfe.png"
+    "static/js/2.75dfb5b9.chunk.js.LICENSE.txt": "/Iosif-Portfolio/static/js/2.75dfb5b9.chunk.js.LICENSE.txt",
+    "static/media/github_image.png": "/Iosif-Portfolio/static/media/github_image.c7ff3dfe.png",
+    "static/media/iosif-portfolio.png": "/Iosif-Portfolio/static/media/iosif-portfolio.8e9e0826.png",
+    "static/media/loading.png": "/Iosif-Portfolio/static/media/loading.ff4cbddf.png",
+    "static/media/medieval-game.png": "/Iosif-Portfolio/static/media/medieval-game.af7ea680.png",
+    "static/media/smart-nurse.png": "/Iosif-Portfolio/static/media/smart-nurse.66f9bbe9.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e2eea88f.js",
-    "static/js/2.3c3e037f.chunk.js",
+    "static/js/2.75dfb5b9.chunk.js",
     "static/css/main.1041d9e6.chunk.css",
-    "static/js/main.90e28cd1.chunk.js"
+    "static/js/main.d5dcb414.chunk.js"
   ]
 }
