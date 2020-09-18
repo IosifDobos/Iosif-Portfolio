@@ -1,18 +1,8 @@
 import React, { Component } from 'react';
 
 class Contact extends Component {
+
   render() {
-
-    if(this.props.data){
-      var name = this.props.data.name;
-      var street = this.props.data.address.street;
-      var city = this.props.data.address.city;
-      var state = this.props.data.address.state;
-      var zip = this.props.data.address.zip;
-      var phone= this.props.data.phone;
-      var message = this.props.data.contactmessage;
-    }
-
     return (
       <section id="contact">
 
@@ -26,7 +16,7 @@ class Contact extends Component {
 
             <div className="ten columns">
 
-                  <p className="lead">{message}</p>
+                  <p className="lead">For more information about me, please fill out the form and I'll reach to you as soon as possible. Thank you!</p>
 
             </div>
 
@@ -79,10 +69,10 @@ class Contact extends Component {
 
 					   <h4>Address and Phone</h4>
 					   <p className="address">
-						   {name}<br />
-						   {street} <br />
-						   {city}, {state} {zip}<br />
-						   <span>{phone}</span>
+						   Iosif B. Dobos<br />
+						   Cedarwood Rise <br />
+						   Glasnevin, Dublin 11<br />
+						   <span>+353894199005</span>
 					   </p>
 				   </div>
 
@@ -91,17 +81,17 @@ class Contact extends Component {
                   <ul id="twitter">
                      <li>
                         <span>
-                        This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                        Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
-                        <a href="#loreispum">http://t.co/CGIrdxIlI3</a>
+                           This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                           Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
+                           <a href="#loreispum">http://t.co/CGIrdxIlI3</a>
                         </span>
                         <b><a href="#day">2 Days Ago</a></b>
                      </li>
                      <li>
                         <span>
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                        eaque ipsa quae ab illo inventore veritatis et quasi
-                        <a href="#loreispum">http://t.co/CGIrdxIlI3</a>
+                           Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+                           eaque ipsa quae ab illo inventore veritatis et quasi
+                           <a href="#loreispum">http://t.co/CGIrdxIlI3</a>
                         </span>
                         <b><a href="#day">3 Days Ago</a></b>
                      </li>
