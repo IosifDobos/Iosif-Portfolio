@@ -2,9 +2,9 @@
     "main": {
       "name":"Iosif Dobos",
       "occupation":"Software Developer",
-      "description":"Graduated student at Technology University Dublin with a degree in BSc in Computer Science. I love to build things and discover new technologies. As part of my degree I have built individual and college projects as well which can be found on Project section by clicking the button bellow and by visting my GitHub page. Also, for more information about my work experience, skills and education click on the Resume button.",
+      "description":"I'm a graduate student at Technology University Dublin with a degree in Computer Science. I love to build things and discover new technologies. As part of my degree I have built individual and college projects as well which can be found on Project section by clicking the button bellow and by visting my GitHub page. Also, for more information about my work experience, skills and education click on the Resume button.",
       "image":"github_image.png",
-      "bio":"I'm a 4th year computer science student at Technology University Dublin with ICT as my major. I love exploring new technologies and often amazed by the progress we as a human species have made so far in the recent years. This website is developed as part as one of the final year module assignment. The website was developed using ReactJS and hosted on github.io",
+      "bio":"I'm a graduate student at Technology University Dublin with a degree in Computer Science. I have pursue my internship at Revenue where I have been involved in three internal projects working with programming languages such as AngularJS, jQuery and Java and Jenkins to test and deploy the applications. I love to learn and explore new technologies and often amazed by how technology has grown in the recent years.",
       "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
       "email": "iosifdobos22@gmail.com",
       "phone": "555-555-5555",
@@ -60,7 +60,7 @@
       ]
     },
     "resume":{
-      "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+      "skillmessage":"Passionate about sport. Member of FC Real Transilvania soccer team. Take part in soccer competitions. Enjoy other sports including ping pong, tennis and snooker.",
       "education":[
         {
           "school":"Technology University Dublin",
@@ -86,13 +86,13 @@
           "company":"Intern at Revenue",
           "title":"Software Developer ",
           "years":"February - August 2019",
-          "description":"During my internship at Revenue I was involved in three internal projects. Worked in a team to help achieving the goals. Techonology used: Java, Angular JS, JQuery, Jenkis, MongoDB, Apache Tomcat Server, Spring 4"
+          "description":"Being involved in multiple projects where AngularJS, JavaScript and jQuery programming language was used to developed the frontend, Java Spring boot to manage the backend where the applications was tested and deployed in Jenkins. Engaged in all phases of the software development lifecycle which include gathering business system requirements. Participated in weekly meeting discussing the stage of the projects and planning future work. Testing and debug applications to meet business needs and interacting with the third party partners in the achievement of business initiatives."
         },
         {
           "company":"IDM Construction LTD",
-          "title":"Maintenance",
+          "title":"Arnotts Maintenance",
           "years":"January 2016 - Present / Part-time",
-          "description":"During my internship at Revenue I was involved in three internal projects. Worked in a team to help achieving the goals. Techonology used: Java, Angular JS, JQuery, Jenkis, MongoDB, Apache Tomcat Server, Spring 4"
+          "description":"Comply with the company plans and vision and working at my best to achieve the goals. Working under time pressure as every job had to be finished before shop opens to give customers the comfort while shopping."
         },
         {
             "company":"Adrian Iacob Dry Wall LTD - Dublin",
@@ -145,24 +145,30 @@
         {
           "title":"Smart-Nurse",
           "category":"App build for my final year project",
-          "image":"canadian-wanderlust.jpg",
+          "image":"smart-nurse.png",
           "url":"https://gitlab.com/IosifDobos/only-react-native"
         },
         {
           "title":"Iosif-Portfolio",
-          "category":"React based resume website template",
-          "image":"fury-fighting-gear.jpg",
+          "category":"React resume website",
+          "image":"iosif-portfolio.png",
           "url":"https://github.com/IosifDobos/Iosif-Portfolio"
         },
         {
-          "title":"Medieval Game",
-          "category":"Game created for year 2 OOP module",
-          "image":"original-thai-food.jpg",
+          "title":"JOE Medieval Game",
+          "category":"3D unity game ",
+          "image":"medieval-game.png",
           "url":"https://github.com/IosifDobos/JoeMedievalGame"
         },
         {
           "title":"Book Reservation Website",
           "category":"A Book Reservation website using HTML, CSS and PHP",
+          "image":"library-website.jpeg",
+          "url":"https://github.com/IosifDobos/Web-Development"
+        },
+        {
+          "title":"Worldmap 2019-2020",
+          "category":"Webiste that uses map location created on django framework",
           "image":"resume-website.jpg",
           "url":"https://github.com/IosifDobos/Web-Development"
         }
