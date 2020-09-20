@@ -37,37 +37,37 @@ class Home extends Component{
                         <hr />
                         <ul className="social">
                             <li>
-                                <a href="http://facebook.com/bogdandobos">
+                                <a href="http://facebook.com/bogdandobos" target="_blank" rel="noopener noreferrer">
                                     <i className="fa fa-facebook"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="http://instagram.com/josephberelly">
+                                <a href="http://instagram.com/josephberelly" target="_blank" rel="noopener noreferrer">
                                     <i className="fa fa-instagram"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="http://twitter.com">
+                                <a href="http://twitter.com" target="_blank" rel="noopener noreferrer">
                                     <i className="fa fa-twitter"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="http://medium.com/">
+                                <a href="http://medium.com/" target="_blank" rel="noopener noreferrer">
                                     <i className="fa fa-medium"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.linkedin.com/in/iosif-dobos/">
+                                <a href="https://www.linkedin.com/in/iosif-dobos/" target="_blank" rel="noopener noreferrer">
                                     <i className="fa fa-linkedin"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="http://github.com/IosifDobos">
+                                <a href="http://github.com/IosifDobos" target="_blank" rel="noopener noreferrer">
                                     <i className="fa fa-github"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="http://github.com/IosifDobos">
+                                <a href="http://github.com/IosifDobos" target="_blank" rel="noopener noreferrer">
                                     <i className="fa fa-gitlab"></i>
                                 </a>
                             </li>
