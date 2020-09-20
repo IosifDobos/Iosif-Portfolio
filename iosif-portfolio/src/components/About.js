@@ -27,8 +27,8 @@ class About extends Component {
                             <p className="address">
                                     <span>Iosif B. Dobos</span><br />
                                     <span>Cedarwood Rise<br />
-                                            Glasnevin, Dublin 11
-                            </span><br />
+                                        Glasnevin, Dublin 11
+                                    </span><br />
                                     <span>+353894199006</span><br />
                                 <span>iosifdobos22@gmail.com</span>
                                 </p>
