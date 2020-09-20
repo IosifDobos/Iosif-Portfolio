@@ -3,16 +3,6 @@ import React, {Component} from 'react';
 class Home extends Component{
 
     render(){
-
-        // if(this.props.data){
-        // //     var name = this.props.data.name;
-        // //     var occupation= this.props.data.occupation;
-        // //     var description= this.props.data.description;
-        // //     var city= this.props.data.address.city;
-        //     var networks= this.props.data.social.map(function(network){
-        //       return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
-        //     })
-        // }
         
         return (
             <header id="home">
@@ -46,7 +36,41 @@ class Home extends Component{
                         </h3>
                         <hr />
                         <ul className="social">
-                            {/* {networks} */}
+                            <li>
+                                <a href="http://facebook.com/bogdandobos" target="_blank" rel="noopener noreferrer">
+                                    <i className="fa fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://instagram.com/josephberelly" target="_blank" rel="noopener noreferrer">
+                                    <i className="fa fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://twitter.com" target="_blank" rel="noopener noreferrer">
+                                    <i className="fa fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://medium.com/" target="_blank" rel="noopener noreferrer">
+                                    <i className="fa fa-medium"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/iosif-dobos/" target="_blank" rel="noopener noreferrer">
+                                    <i className="fa fa-linkedin"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://github.com/IosifDobos" target="_blank" rel="noopener noreferrer">
+                                    <i className="fa fa-github"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://github.com/IosifDobos" target="_blank" rel="noopener noreferrer">
+                                    <i className="fa fa-gitlab"></i>
+                                </a>
+                            </li>
                         </ul>
                         <hr />
                         {/* <div className="btn-toolbar">

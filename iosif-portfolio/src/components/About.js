@@ -27,15 +27,18 @@ class About extends Component {
                             <p className="address">
                                     <span>Iosif B. Dobos</span><br />
                                     <span>Cedarwood Rise<br />
-                                            Glasnevin, Dublin 11
-                            </span><br />
+                                        Glasnevin, Dublin 11
+                                    </span><br />
                                     <span>+353894199006</span><br />
                                 <span>iosifdobos22@gmail.com</span>
                                 </p>
                         </div>
                         <div className="columns download">
                             <p>
-                                <a href="#" className="button"><i className="fa fa-download"></i>Download Resume</a>
+                                <a href="https://drive.google.com/file/d/1kZzeo4SrKXJhEw53Djrv-_p0x6iKLqOv/view?ths=true" className="button" target="_blank" rel="noopener noreferrer">
+                                    <i className="fa fa-download"></i>
+                                    Download Resume
+                                </a>
                             </p>
                         </div>
                         </div>
@@ -46,7 +49,7 @@ class About extends Component {
                     <div className="row welcome text-center">
                         <div className="col-12">
                             <h1 className="display-4 white-color">What I do?</h1>
-                            <h4 className="display-4 white-color">Here are some of my expertise</h4>
+                            <h4 className="display-4 white-color">Here are some of my expertise.</h4>
                         </div>
                         <hr></hr>
                     </div>
@@ -57,8 +60,8 @@ class About extends Component {
                             <i className="fa fa-code"></i>
                             <h3 className="white-color">Web Development</h3>
                             <p>
-                                I have experience building websites using JavaScript, Angular, React, HTML, CSS as frontend and
-                                Java, Python, Flask, Django, Jenkis and Apache Tomcat as backend to deploy the applications.
+                                I have experience building websites using JavaScript, AngularJS, React, HTML, CSS as frontend and
+                                Java, Python, Flask and Django as backend.
                             </p>
                         </div>
                     </div>
@@ -66,7 +69,7 @@ class About extends Component {
                         <div className="">
                             <i className="fa fa-bold"></i>
                             <h3 className="white-color">Algorithms & Data Structures</h3>
-                            <p>As part of the Computer Science degree, I have good background over fundamental concepts of DSA</p>
+                            <p>As part of my degree in Computer Science, I have good background over fundamental concepts of DSA.</p>
                         </div>
                     </div>
                     <div className="four columns">
@@ -74,7 +77,7 @@ class About extends Component {
                             <i className="fa fa-css3"></i>
                             <h3 className="white-color">Dev Ops</h3>
                             <p>
-                                I have pursued my internship at Revenue, being involved in a DevOps team working with tools like Jenkins and Doker
+                                I have pursued my internship at Revenue, being involved in a DevOps team working with tools like Jenkins and Doker.
                             </p>
                         </div>
                     </div>
