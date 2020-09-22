@@ -1,6 +1,76 @@
 import React, { Component } from 'react';
+import axios from 'axios';
 
 class Contact extends Component {
+
+   constructor(props){
+      super(props);
+      this.state = {
+         contactName: '',
+         contactEmail: '',
+         contactSubject: '',
+         contactMessage: ''
+      }
+
+      this.handleChange = this.handleChange.bind(this);
+      this.handleSubmit = this.handleSubmit.bind(this);
+   }
+
+   // onNameChange(event){
+   //    this.setState({ contactName: event.target.value })
+   // }
+   // onEmailChange(event){
+   //    this.setState({ contactEmail: event.target.value})
+   // }
+   // onSubjectChange(event){
+   //    this.setState({ contactSubject: event.target.value})
+   // }
+   // onMessageChange(event){
+   //    this.setState({contactMessage: event.target.value})
+   // }
+
+   handleChange = e => {
+      this.setState({[e.target.contactName] : e.target.value})
+   }
+
+   async handleSubmit(e){
+      e.preventDefault();
+
+      // fetch('http://localhost:3000/Iosif-Portfolio/send', { )
+      // fetch('https://IosifDobos.github.io/Iosif-Portfolio', {
+      //    method: "POST",
+      //    body: JSON.stringify(this.state),
+      //    headers: {
+      //       'Accept': 'application/json',
+      //       'Content-Type': 'application/json'
+      //    }
+      // }).then(
+      //    (response) => (response.json())
+      // ).then( (response) => {
+      //    if(response.status === 'success'){
+      //       alert("Meesage sent.");
+      //       this.resetForm()
+      //    }
+      //    else if(response.status === 'fail'){
+      //       alert("Failed to send message!")
+      //    }
+      // })
+      const {contactName, contactEmail, contactSubject, contactMessage} = this.state
+
+      const form = await axios.post('api/form', {
+         contactName,
+         contactEmail,
+         contactSubject,
+         contactMessage
+      })
+
+      console.log(this.state);
+   }
+
+   // resetForm(){
+    
+   //    this.setState({contactName: '', contactEmail: '', contactSubject: '', contactMessage: ''})
+   // }
 
   render() {
     return (
@@ -25,31 +95,35 @@ class Contact extends Component {
          <div className="row">
             <div className="eight columns">
 
-               <form action="" method="post" id="contactForm" name="contactForm">
+               <form action="" method="POST" id="contactForm" name="contactForm" onSubmit={this.handleSubmit}>
 					<fieldset>
 
                   <div>
 						   <label htmlFor="contactName">Name <span className="required">*</span></label>
-						   <input type="text" defaultValue="" size="35" id="contactName" name="contactName" onChange={this.handleChange}/>
+                     <input type="text" size="35" id="contactName" name="contactName" 
+                        onChange={this.handleChange}/>
                   </div>
 
                   <div>
 						   <label htmlFor="contactEmail">Email <span className="required">*</span></label>
-						   <input type="text" defaultValue="" size="35" id="contactEmail" name="contactEmail" onChange={this.handleChange}/>
+                     <input type="text" size="35" id="contactEmail" name="contactEmail"
+                        onChange={this.handleChange}/>
                   </div>
 
                   <div>
 						   <label htmlFor="contactSubject">Subject</label>
-						   <input type="text" defaultValue="" size="35" id="contactSubject" name="contactSubject" onChange={this.handleChange}/>
+                     <input type="text" size="35" id="contactSubject" name="contactSubject" 
+                        onChange={this.handleChange}/>
                   </div>
 
                   <div>
                      <label htmlFor="contactMessage">Message <span className="required">*</span></label>
-                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"
+                        onChange={this.handleChange}></textarea>
                   </div>
 
                   <div>
-                     <button className="submit">Submit</button>
+                     <button type="submit" className="submit">Submit</button>
                      <span id="image-loader">
                         <img alt="" src="images/loader.gif" />
                      </span>
@@ -105,3 +179,8 @@ class Contact extends Component {
 }
 
 export default Contact;
+
+// value={this.state.contactName}
+// value={this.state.contactEmail}
+// value={this.state.contactSubject} 
+// value={this.state.contactMessage} 
