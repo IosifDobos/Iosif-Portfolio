@@ -33,7 +33,7 @@ class Contact extends Component {
       this.setState({[e.target.contactName] : e.target.value})
    }
 
-   async handleSubmit(e){
+   handleSubmit(e){
       e.preventDefault();
 
       axios({
