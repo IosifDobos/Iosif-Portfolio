@@ -38,7 +38,7 @@ class Contact extends Component {
 
       axios({
          method: "POST",
-         url: "https://iosifdobos.github.io/Iosif-Portfolio/send",
+         url: "http://localhost:3000/Iosif-Portfolio/send",
          data: this.state
       }).then( (response) => {
          if(response.data.status === 'success'){
