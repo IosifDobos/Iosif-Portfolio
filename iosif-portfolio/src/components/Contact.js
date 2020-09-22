@@ -36,6 +36,20 @@ class Contact extends Component {
    async handleSubmit(e){
       e.preventDefault();
 
+      axios({
+         method: "POST",
+         url: "https://iosifdobos.github.io/Iosif-Portfolio/send",
+         data: this.state
+      }).then( (response) => {
+         if(response.data.status === 'success'){
+            alert("Message Sent!");
+            const {contactName, contactEmail, contactSubject, contactMessage} = this.state
+         }
+         else{
+            alert("Send message failed!")
+         }
+      })
+
       // fetch('http://localhost:3000/Iosif-Portfolio/send', { )
       // fetch('https://IosifDobos.github.io/Iosif-Portfolio', {
       //    method: "POST",
@@ -55,16 +69,16 @@ class Contact extends Component {
       //       alert("Failed to send message!")
       //    }
       // })
-      const {contactName, contactEmail, contactSubject, contactMessage} = this.state
+      // const {contactName, contactEmail, contactSubject, contactMessage} = this.state
 
-      const form = await axios.post('api/form', {
-         contactName,
-         contactEmail,
-         contactSubject,
-         contactMessage
-      })
+      // const form = await axios.post('api/form', {
+      //    contactName,
+      //    contactEmail,
+      //    contactSubject,
+      //    contactMessage
+      // })
 
-      console.log(this.state);
+      // console.log(this.state);
    }
 
    // resetForm(){
