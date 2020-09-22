@@ -3,25 +3,28 @@
     header("Access-Control-Allow-Headers: Content-Type");
     header("Content-Type: application/json");
 
+    $res_json = file_get_contents("php://input");
+    $_POST = json_decode($res_json, true);
+
     $errors = array();
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         # code...
-        if (empty($_POST['email'])) {
+        if (empty($_POST['contactEmail'])) {
             $errors[] = 'Email is empty';
         }
         else {
-            $email = $_POST['email'];
+            $email = $_POST['contactEmail'];
             //validating the email
             if( !filter_var($email, FILTER_VALIDATE_EMAIL)){
                 $error[] = 'Invalid email';
             }
         }
 
-        if(empty($_POST['message'])) {
+        if(empty($_POST['contactMessage'])) {
             $error[] = 'Message is empty';
         }
         else{
-            $message = $_POST['message'];
+            $message = $_POST['contactMessage'];
         }
 
         if (empty($errors)) {
