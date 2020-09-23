@@ -16,26 +16,12 @@ class Contact extends Component {
       this.handleSubmit = this.handleSubmit.bind(this);
    }
 
-   // onNameChange(event){
-   //    this.setState({ contactName: event.target.value })
-   // }
-   // onEmailChange(event){
-   //    this.setState({ contactEmail: event.target.value})
-   // }
-   // onSubjectChange(event){
-   //    this.setState({ contactSubject: event.target.value})
-   // }
-   // onMessageChange(event){
-   //    this.setState({contactMessage: event.target.value})
-   // }
-
    handleChange = e => {
       this.setState({[e.target.contactName] : e.target.value})
    }
 
    handleSubmit(e){
       e.preventDefault();
-
       axios({
          method: "POST",
          url: "http://localhost:3000/Iosif-Portfolio/send",
@@ -49,42 +35,7 @@ class Contact extends Component {
             alert("Send message failed!")
          }
       })
-
-      // fetch('http://localhost:3000/Iosif-Portfolio/send', { )
-      // fetch('https://IosifDobos.github.io/Iosif-Portfolio', {
-      //    method: "POST",
-      //    body: JSON.stringify(this.state),
-      //    headers: {
-      //       'Accept': 'application/json',
-      //       'Content-Type': 'application/json'
-      //    }
-      // }).then(
-      //    (response) => (response.json())
-      // ).then( (response) => {
-      //    if(response.status === 'success'){
-      //       alert("Meesage sent.");
-      //       this.resetForm()
-      //    }
-      //    else if(response.status === 'fail'){
-      //       alert("Failed to send message!")
-      //    }
-      // })
-      // const {contactName, contactEmail, contactSubject, contactMessage} = this.state
-
-      // const form = await axios.post('api/form', {
-      //    contactName,
-      //    contactEmail,
-      //    contactSubject,
-      //    contactMessage
-      // })
-
-      // console.log(this.state);
    }
-
-   // resetForm(){
-    
-   //    this.setState({contactName: '', contactEmail: '', contactSubject: '', contactMessage: ''})
-   // }
 
   render() {
     return (
@@ -193,8 +144,3 @@ class Contact extends Component {
 }
 
 export default Contact;
-
-// value={this.state.contactName}
-// value={this.state.contactEmail}
-// value={this.state.contactSubject} 
-// value={this.state.contactMessage} 

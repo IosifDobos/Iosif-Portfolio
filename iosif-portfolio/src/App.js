@@ -1,7 +1,5 @@
 import React, {Component} from 'react';
-// import ReactGA from 'react-ga';
 import './App.css';
-// import $ from 'jquery';
 
 import Home from './components/Home';
 import About from './components/About';
