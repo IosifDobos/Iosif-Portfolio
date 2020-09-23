@@ -23,15 +23,6 @@ class Contact extends Component {
    async handleSubmit(e){
       e.preventDefault();
 
-      const {contactName, contactEmail, contactSubject, contactMessage} = this.state
-
-      const form = await axios.post('api/form', {
-         contactName,
-         contactEmail,
-         contactSubject,
-         contactMessage
-      })
-
       console.log(this.state);
    }
 
