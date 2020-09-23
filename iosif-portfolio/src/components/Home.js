@@ -67,20 +67,20 @@ class Home extends Component{
                                 </a>
                             </li>
                             <li>
-                                <a href="http://github.com/IosifDobos" target="_blank" rel="noopener noreferrer">
+                                <a href="https://gitlab.com/IosifDobos" target="_blank" rel="noopener noreferrer">
                                     <i className="fa fa-gitlab"></i>
                                 </a>
                             </li>
                         </ul>
                         <hr />
-                        {/* <div className="btn-toolbar">
-                                <button type="button" className="btn btn-lg btn-primary btn-sm btn-space white-color">
+                        <div className="btn-toolbar">
+                                <button type="button" className="btn btn-lg btn-primary btn-sm">
                                     <a href="#portfolio" className="white-color">View Projects</a>
                                 </button>
-                                 <button type="button" className="btn btn-lg btn-primary btn-sm btn-space"> 
+                                 <button type="button" className="btn btn-lg btn-primary btn-sm"> 
                                     <a href="#resume">View Resume</a>
                                 </button>
-                        </div> */}
+                        </div>
                     </div>
                     
                 </div>
