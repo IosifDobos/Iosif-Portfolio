@@ -20,10 +20,21 @@ class Contact extends Component {
       this.setState({[e.target.contactName] : e.target.value})
    }
 
-   async handleSubmit(e){
+   handleSubmit(e){
       e.preventDefault();
-
-      console.log(this.state);
+      axios({
+         method: "POST",
+         url: "http://localhost:3000/Iosif-Portfolio/send",
+         data: this.state
+      }).then( (response) => {
+         if(response.data.status === 'success'){
+            alert("Message Sent!");
+            const {contactName, contactEmail, contactSubject, contactMessage} = this.state
+         }
+         else{
+            alert("Send message failed!")
+         }
+      })
    }
 
   render() {
