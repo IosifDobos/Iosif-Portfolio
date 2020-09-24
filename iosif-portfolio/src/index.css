@@ -12,6 +12,10 @@ code {
     monospace;
 }
 
+.padding{
+  padding-bottom: 15px;
+}
+
 .white-color{
   color: white;
 }
