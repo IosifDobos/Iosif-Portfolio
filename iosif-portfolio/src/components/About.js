@@ -66,14 +66,14 @@ class About extends Component {
                         </div>
                     </div>
                     <div className="four columns">
-                        <div className="">
+                        <div className="expertise">
                             <i className="fa fa-bold"></i>
                             <h3 className="white-color">Algorithms & Data Structures</h3>
                             <p>As part of my degree in Computer Science, I have good background over fundamental concepts of DSA.</p>
                         </div>
                     </div>
                     <div className="four columns">
-                        <div className="">
+                        <div className="expertise">
                             <i className="fa fa-css3"></i>
                             <h3 className="white-color">Dev Ops</h3>
                             <p>

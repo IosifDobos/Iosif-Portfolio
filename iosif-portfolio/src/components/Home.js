@@ -52,11 +52,6 @@ class Home extends Component{
                                 </a>
                             </li>
                             <li>
-                                <a href="http://medium.com/" target="_blank" rel="noopener noreferrer">
-                                    <i className="fa fa-medium"></i>
-                                </a>
-                            </li>
-                            <li>
                                 <a href="https://www.linkedin.com/in/iosif-dobos/" target="_blank" rel="noopener noreferrer">
                                     <i className="fa fa-linkedin"></i>
                                 </a>
@@ -66,21 +61,28 @@ class Home extends Component{
                                     <i className="fa fa-github"></i>
                                 </a>
                             </li>
-                            <li>
+                            {/* <li>
                                 <a href="https://gitlab.com/IosifDobos" target="_blank" rel="noopener noreferrer">
                                     <i className="fa fa-gitlab"></i>
                                 </a>
                             </li>
+                            <li>
+                                <a href="http://medium.com/" target="_blank" rel="noopener noreferrer">
+                                    <i className="fa fa-medium"></i>
+                                </a>
+                            </li> */}
                         </ul>
                         <hr />
-                        <div className="btn-toolbar">
-                                <button type="button" className="btn btn-lg btn-primary btn-sm">
-                                    <a href="#portfolio" className="white-color">View Projects</a>
-                                </button>
-                                 <button type="button" className="btn btn-lg btn-primary btn-sm"> 
-                                    <a href="#resume">View Resume</a>
-                                </button>
-                        </div>
+                        <ul className="btn-toolbar">
+                            <a href="#portfolio" type="button" className="button btn project-btn">
+                                {/* <i className="fa fa-github"></i> */}
+                                View Projects
+                            </a>
+                            <a href="#resume" type="button" className="button btn project-btn resume-btn">
+                                {/* <i className="fa fa-book"></i> */}
+                                My Resume
+                            </a>
+                        </ul>
                     </div>
                     
                 </div>
