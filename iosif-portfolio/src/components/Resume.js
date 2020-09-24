@@ -17,17 +17,17 @@ class Resume extends Component {
                   <div>
                     <h3>Technology University Dublin</h3>
                     <p className="info">BSc in Computer Science <span>&bull;</span><em className="date">September 2020</em></p>
-                    <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>
+                    {/* <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p> */}
                   </div>
                   <div>
                     <h3>Access Foundation Programme TUD</h3>
                     <p className="info">Special Purpose Award Level 6 <span>&bull;</span><em className="date">September 2016</em></p>
-                    <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>
+                    {/* <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p> */}
                   </div>
                   <div>
                     <h3>Technical College 'Petru Poni' Roman, Romania</h3>
                     <p className="info">Bacalaureate Diploma <span>&bull;</span><em className="date">June 2011</em></p>
-                    <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>
+                    {/* <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p> */}
                   </div>
                 </div>
               </div>

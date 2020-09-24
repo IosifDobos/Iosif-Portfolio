@@ -45,18 +45,18 @@ class About extends Component {
                     </div>
                     <hr />
                 </div>
-                <div className="container-fluid padding">
+                <div className="container-fluid">
                     <div className="row welcome text-center">
                         <div className="col-12">
                             <h1 className="display-4 white-color">What I do?</h1>
-                            <h4 className="display-4 white-color">Here are some of my expertise.</h4>
+                            <h4 className="display-4 white-color padding">Here are some of my expertise.</h4>
                         </div>
                         <hr></hr>
                     </div>
                 </div>
                 <div className="row text-center">
                     <div className="four columns">
-                        <div className="">
+                        <div className="expertise">
                             <i className="fa fa-code"></i>
                             <h3 className="white-color">Web Development</h3>
                             <p>
