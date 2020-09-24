@@ -111,7 +111,7 @@ class Projects extends Component {
 
               <div className="link-box">
                 <a href="https://gitlab.com/IosifDobos/only-react-native" target="_blank" rel="noopener noreferrer">Details</a>
-              <button className="popup-modal-dismiss">Close</button>
+              <a className="popup-modal-dismiss">Close</a>
               </div>
           </div>
 
@@ -126,7 +126,7 @@ class Projects extends Component {
 
               <div className="link-box">
                 <a href="https://github.com/IosifDobos/Iosif-Portfolio" target="_blank" rel="noopener noreferrer">Details</a>
-                <button className="popup-modal-dismiss right">Close</button>
+                <a className="popup-modal-dismiss">Close</a>
               </div>
           </div>
 
@@ -141,7 +141,7 @@ class Projects extends Component {
 
               <div className="link-box">
                 <a href="https://github.com/IosifDobos/JoeMedievalGame" target="_blank" rel="noopener noreferrer">Details</a>
-                <button className="popup-modal-dismiss right">Close</button>
+                <a className="popup-modal-dismiss">Close</a>
               </div>
           </div>
 
@@ -156,7 +156,7 @@ class Projects extends Component {
 
               <div className="link-box">
                 <a href="https://github.com/IosifDobos/Web-Development" target="_blank" rel="noopener noreferrer">Details</a>
-                <button className="popup-modal-dismiss right">Close</button>
+                <a className="popup-modal-dismiss">Close</a>
               </div>
           </div>
 
@@ -171,7 +171,7 @@ class Projects extends Component {
 
               <div className="link-box">
                 <a href="https://github.com/IosifDobos/Web-Mapping-Assignment" target="_blank" rel="noopener noreferrer">Details</a>
-                <button className="popup-modal-dismiss right">Close</button>
+                <a className="popup-modal-dismiss">Close</a>
               </div>
           </div>
 
