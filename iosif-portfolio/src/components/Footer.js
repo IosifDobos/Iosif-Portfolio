@@ -12,10 +12,10 @@ class Footer extends Component {
                 <li><a href="http://facebook.com/bogdandobos" target="_blank" rel="noopener noreferrer"><i className="fa fa-facebook"></i></a></li>
                 <li><a href="http://instagram.com/josephberelly" target="_blank" rel="noopener noreferrer"><i className="fa fa-instagram"></i></a></li>
                 <li><a href="http://twitter.com" target="_blank" rel="noopener noreferrer"><i className="fa fa-twitter"></i></a></li>
-                <li><a href="http://medium.com/" target="_blank" rel="noopener noreferrer"><i className="fa fa-medium"></i></a></li>
                 <li><a href="https://www.linkedin.com/in/iosif-dobos/" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin"></i></a></li>
                 <li><a href="http://github.com/IosifDobos" target="_blank" rel="noopener noreferrer"><i className="fa fa-github"></i></a></li>
-                <li><a href="https://gitlab.com/IosifDobos" target="_blank" rel="noopener noreferrer"><i className="fa fa-gitlab"></i></a></li>
+                {/* <li><a href="https://gitlab.com/IosifDobos" target="_blank" rel="noopener noreferrer"><i className="fa fa-gitlab"></i></a></li>
+                <li><a href="http://medium.com/" target="_blank" rel="noopener noreferrer"><i className="fa fa-medium"></i></a></li> */}
               </ul>
 
               <ul className="copyright">
