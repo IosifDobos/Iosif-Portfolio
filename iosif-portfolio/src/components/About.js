@@ -1,46 +1,46 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 
 import profile from '../components/assets/img/github_image.png'
 
 class About extends Component {
 
     render() {
-        return(
+        return (
             <section id="about">
                 <div className="row">
                     <div className="three columns">
-                        <img className="profile-pic"  src={profile} alt="Iosif Dobos Profile" />
+                        <img className="profile-pic" src={profile} alt="Iosif Dobos Profile" />
                     </div>
                     <div className="nine columns main-col">
                         <h2>About Me</h2>
 
                         <p>
-                            I'm a graduate student at Technology University Dublin with a degree in Computer Science. 
-                            I have pursue my internship at Revenue where I have been involved in three internal 
-                            projects working with programming languages such as AngularJS, jQuery and Java and Jenkins 
-                            to test and deploy the applications. I love to learn and explore new technologies and often 
-                            amazed by how technology has grown in the recent years.
+                            I'm a graduate student at Technological University Dublin with a BSc degree in Computer Science.
+                            I have pursued my internship at Revenue where I have been involved in three internal
+                            projects working with programming languages such as AngularJS, jQuery, JavaScript as frontend,
+                            Java as backend and Jenkins to test and deploy the applications. I love to learn and explore new technologies
+                            and often amazed by how technology has grown in the recent years.
                         </p>
                         <div className="row">
-                        <div className="columns contact-details">
-                            <h2>Contact Details</h2>
-                            <p className="address">
+                            <div className="columns contact-details">
+                                <h2>Contact Details</h2>
+                                <p className="address">
                                     <span>Iosif B. Dobos</span><br />
                                     <span>Cedarwood Rise<br />
                                         Glasnevin, Dublin 11
                                     </span><br />
                                     <span>+353894199006</span><br />
-                                <span>iosifdobos22@gmail.com</span>
+                                    <span>iosifdobos22@gmail.com</span>
                                 </p>
-                        </div>
-                        <div className="columns download">
-                            <p>
-                                <a href="https://drive.google.com/file/d/1kZzeo4SrKXJhEw53Djrv-_p0x6iKLqOv/view?ths=true" className="button" target="_blank" rel="noopener noreferrer">
-                                    <i className="fa fa-download"></i>
+                            </div>
+                            <div className="columns download">
+                                <p>
+                                    <a href="https://drive.google.com/file/d/1kZzeo4SrKXJhEw53Djrv-_p0x6iKLqOv/view?ths=true" className="button" target="_blank" rel="noopener noreferrer">
+                                        <i className="fa fa-download"></i>
                                     Download Resume
                                 </a>
-                            </p>
-                        </div>
+                                </p>
+                            </div>
                         </div>
                     </div>
                     <hr />

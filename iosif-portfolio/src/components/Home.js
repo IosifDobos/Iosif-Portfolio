@@ -28,7 +28,7 @@ class Home extends Component{
                     <div className="banner-text">
                         <h1 className="responsive-headline">I'm Iosif B. Dobos.</h1>
                         <h3>
-                            I'm a <span>Dublin</span> based <span>Software Developer</span>. I'm a graduate student at Technology University Dublin
+                            I'm a <span>Dublin</span> based <span>Software Developer</span>. I'm a graduate student at Technological University Dublin
                             with a degree in Computer Science. I love to build things and discover new technologies.
                             As part of my degree I have built numerous projects which can be found on Projects section
                             by clicking on the button bellow or by visiting my GitHub page. Also, for more information about my work experience,

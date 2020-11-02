@@ -108,12 +108,13 @@ class Resume extends Component {
 
             <div className="bars">
               <ul className="skills">
-                <li ><span style={{width: '90%'}} className="bar-expand"></span><em>Git</em></li>
-                <li ><span style={{width: '80%'}} className="bar-expand"></span><em>React</em></li>
-                <li ><span style={{width: '90%'}} className="bar-expand"></span><em>CSS</em></li>
-                <li ><span style={{width: '75%'}} className="bar-expand"></span><em>HTML 5</em></li>
-                <li ><span style={{width: '80%'}} className="bar-expand"></span><em>Java</em></li>
-                <li ><span style={{width: '80%'}} className="bar-expand"></span><em>MongoDB</em></li>
+                <li><span style={{width: '100%'}} className="bar-expand styled">100%</span><em>Git</em></li>
+                <li><span style={{width: '80%'}} className="bar-expand styled">80%</span><em>React</em></li>
+                <li><span style={{width: '90%'}} className="bar-expand styled">90%</span><em>CSS</em></li>
+                <li><span style={{width: '75%'}} className="bar-expand styled">75%</span><em>HTML 5</em></li>
+                <li><span style={{width: '90%'}} className="bar-expand styled">80%</span><em>JavaScript</em></li>
+                <li><span style={{width: '80%'}} className="bar-expand styled">80%</span><em>Java</em></li>
+                <li><span style={{width: '80%'}} className="bar-expand styled">80%</span><em>Python</em></li>
               </ul>
             </div>
           </div>
