@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
+import { AiFillHtml5 } from 'react-icons/ai';
+import { IoLogoCss3 } from 'react-icons/io';
+import { SiAzuredevops } from 'react-icons/si';
+import { HiCode } from 'react-icons/hi';
 
-import profile from '../components/assets/img/github_image.png'
+import profile from '../assets/img/github_image.png'
 
 class About extends Component {
 
@@ -57,7 +61,7 @@ class About extends Component {
                 <div className="row text-center">
                     <div className="four columns">
                         <div className="expertise">
-                            <i className="fa fa-code"></i>
+                            <HiCode size="100" color="red" />
                             <h3 className="white-color">Web Development</h3>
                             <p>
                                 I have experience building websites using JavaScript, AngularJS, React, HTML, CSS as frontend and
@@ -67,14 +71,14 @@ class About extends Component {
                     </div>
                     <div className="four columns">
                         <div className="expertise">
-                            <i className="fa fa-bold"></i>
+                            <IoLogoCss3 className="css-logo" size="100" color="green" />
                             <h3 className="white-color">Algorithms & Data Structures</h3>
                             <p>As part of my degree in Computer Science, I have good background over fundamental concepts of DSA.</p>
                         </div>
                     </div>
                     <div className="four columns">
                         <div className="expertise">
-                            <i className="fa fa-css3"></i>
+                            <SiAzuredevops className="dev-ops" size="100" color="blue" />
                             <h3 className="white-color">Dev Ops</h3>
                             <p>
                                 I have pursued my internship at Revenue, being involved in a DevOps team working with tools like Jenkins and Doker.

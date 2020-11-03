@@ -1,9 +1,18 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
+import {
+    AiFillFacebook,
+    AiFillGithub,
+    AiFillGitlab,
+    AiFillInstagram,
+    AiFillTwitterSquare,
+    AiFillMediumSquare,
+    AiFillLinkedin
+} from 'react-icons/ai';
 
-class Home extends Component{
+class Home extends Component {
 
-    render(){
-        
+    render() {
+
         return (
             <header id="home">
 
@@ -38,39 +47,39 @@ class Home extends Component{
                         <ul className="social">
                             <li>
                                 <a href="http://facebook.com/bogdandobos" target="_blank" rel="noopener noreferrer">
-                                    <i className="fa fa-facebook"></i>
+                                    <AiFillFacebook />
                                 </a>
                             </li>
                             <li>
                                 <a href="http://instagram.com/josephberelly" target="_blank" rel="noopener noreferrer">
-                                    <i className="fa fa-instagram"></i>
+                                    <AiFillInstagram />
                                 </a>
                             </li>
                             <li>
                                 <a href="http://twitter.com" target="_blank" rel="noopener noreferrer">
-                                    <i className="fa fa-twitter"></i>
+                                    <AiFillTwitterSquare />
                                 </a>
                             </li>
                             <li>
                                 <a href="https://www.linkedin.com/in/iosif-dobos/" target="_blank" rel="noopener noreferrer">
-                                    <i className="fa fa-linkedin"></i>
+                                    <AiFillLinkedin />
                                 </a>
                             </li>
                             <li>
                                 <a href="http://github.com/IosifDobos" target="_blank" rel="noopener noreferrer">
-                                    <i className="fa fa-github"></i>
+                                    <AiFillGithub />
                                 </a>
                             </li>
-                            {/* <li>
+                            <li>
                                 <a href="https://gitlab.com/IosifDobos" target="_blank" rel="noopener noreferrer">
-                                    <i className="fa fa-gitlab"></i>
+                                    <i className="fa "><AiFillGitlab /></i>
                                 </a>
                             </li>
                             <li>
                                 <a href="http://medium.com/" target="_blank" rel="noopener noreferrer">
-                                    <i className="fa fa-medium"></i>
+                                    <AiFillMediumSquare />
                                 </a>
-                            </li> */}
+                            </li>
                         </ul>
                         <hr />
                         <ul className="btn-toolbar">
@@ -84,9 +93,9 @@ class Home extends Component{
                             </a>
                         </ul>
                     </div>
-                    
+
                 </div>
-                
+
                 <p className="scrolldown">
                     <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
                 </p>
