@@ -47,37 +47,37 @@ class Home extends Component {
                         <ul className="social">
                             <li>
                                 <a href="http://facebook.com/bogdandobos" target="_blank" rel="noopener noreferrer">
-                                    <AiFillFacebook />
+                                    <AiFillFacebook size="40" />
                                 </a>
                             </li>
                             <li>
                                 <a href="http://instagram.com/josephberelly" target="_blank" rel="noopener noreferrer">
-                                    <AiFillInstagram />
+                                    <AiFillInstagram size="40" />
                                 </a>
                             </li>
                             <li>
                                 <a href="http://twitter.com" target="_blank" rel="noopener noreferrer">
-                                    <AiFillTwitterSquare />
+                                    <AiFillTwitterSquare size="40" />
                                 </a>
                             </li>
                             <li>
                                 <a href="https://www.linkedin.com/in/iosif-dobos/" target="_blank" rel="noopener noreferrer">
-                                    <AiFillLinkedin />
+                                    <AiFillLinkedin size="40" />
                                 </a>
                             </li>
                             <li>
                                 <a href="http://github.com/IosifDobos" target="_blank" rel="noopener noreferrer">
-                                    <AiFillGithub />
+                                    <AiFillGithub size="40" size="40" />
                                 </a>
                             </li>
                             <li>
                                 <a href="https://gitlab.com/IosifDobos" target="_blank" rel="noopener noreferrer">
-                                    <i className="fa "><AiFillGitlab /></i>
+                                    <AiFillGitlab size="40" />
                                 </a>
                             </li>
                             <li>
                                 <a href="http://medium.com/" target="_blank" rel="noopener noreferrer">
-                                    <AiFillMediumSquare />
+                                    <AiFillMediumSquare size="40" />
                                 </a>
                             </li>
                         </ul>
