@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { AiFillHtml5 } from 'react-icons/ai';
+// import { AiFillHtml5 } from 'react-icons/ai';
 import { IoLogoCss3 } from 'react-icons/io';
 import { SiAzuredevops } from 'react-icons/si';
 import { HiCode } from 'react-icons/hi';
@@ -7,7 +7,6 @@ import { HiCode } from 'react-icons/hi';
 import profile from '../assets/img/github_image.png'
 
 class About extends Component {
-
     render() {
         return (
             <section id="about">
@@ -17,7 +16,6 @@ class About extends Component {
                     </div>
                     <div className="nine columns main-col">
                         <h2>About Me</h2>
-
                         <p>
                             I'm a graduate student at Technological University Dublin with a BSc degree in Computer Science.
                             I have pursued my internship at Revenue where I have been involved in three internal
