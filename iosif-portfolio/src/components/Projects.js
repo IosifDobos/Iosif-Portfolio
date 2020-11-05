@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { AiFillCloseCircle } from 'react-icons/ai';
-import { FaTag } from 'react-icons/fa'
+// import { FaTag } from 'react-icons/fa'
 
 import smartNurse from '../assets/img/smart-nurse.png'
 import resumeImg from '../assets/img/iosif-portfolio.png';
@@ -164,10 +164,10 @@ class Projects extends Component {
             </div>
 
             <div className="link-box">
-              <a href="https://gitlab.com/IosifDobos/only-react-native" target="_blank" rel="noopener noreferrer">Details</a>
-              <a className="popup-modal-dismiss">close</a>
+              <button className="btn btn-primary">
+                <a href="https://gitlab.com/IosifDobos/only-react-native" target="_blank" rel="noopener noreferrer">Details</a>
+              </button>
               <AiFillCloseCircle size="25" className="popup-modal-dismiss btn-close" />
-
             </div>
           </div>
 
@@ -176,13 +176,18 @@ class Projects extends Component {
 
             <div className="description-box">
               <h4>Iosif Portfolio</h4>
-              <p>Resume website created using ReactJS and NodeJS</p>
-              <span className="categories"><i className="fa fa-tag"></i>ReactJS, NodeJS</span>
+              <p>Personal resume website created using ReactJS</p>
+              <span className="categories"><i className="fa fa-tag"></i>ReactJS</span>
             </div>
 
             <div className="link-box">
-              <a href="https://github.com/IosifDobos/Iosif-Portfolio" target="_blank" rel="noopener noreferrer">Details</a>
-              <a className="popup-modal-dismiss">Close</a>
+              <a href="https://github.com/IosifDobos/Iosif-Portfolio"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Details
+              </a>
+              {/* <a className="popup-modal-dismiss">Close</a> */}
               <AiFillCloseCircle size="25" className="popup-modal-dismiss btn-close" />
             </div>
           </div>
@@ -192,13 +197,13 @@ class Projects extends Component {
 
             <div className="description-box">
               <h4>JOE Medival Game</h4>
-              <p>3D unity game</p>
+              <p>3D unity game created for OOP module year 2</p>
               <span className="categories"><i className="fa fa-tag"></i>Unity, C#</span>
             </div>
 
             <div className="link-box">
               <a href="https://github.com/IosifDobos/JoeMedievalGame" target="_blank" rel="noopener noreferrer">Details</a>
-              <a className="popup-modal-dismiss">Close</a>
+              {/* <a className="popup-modal-dismiss">Close</a> */}
               <AiFillCloseCircle size="25" className="popup-modal-dismiss btn-close" />
             </div>
           </div>
@@ -208,13 +213,17 @@ class Projects extends Component {
 
             <div className="description-box">
               <h4>Book Reservation Website</h4>
-              <p>A Book Reservation website using HTML, CSS and PHP</p>
+              <p>
+                A Book Reservation website create for Web Developent module in year 2 during college.
+                The website was created using HTML, CSS and PHP programming language.
+                And XAMP server was used to store and get the data
+                </p>
               <span className="categories"><i className="fa fa-tag"></i>HTML, CSS, PHP, mySQL</span>
             </div>
 
             <div className="link-box">
               <a href="https://github.com/IosifDobos/Web-Development" target="_blank" rel="noopener noreferrer">Details</a>
-              <a className="popup-modal-dismiss">Close</a>
+              {/* <a className="popup-modal-dismiss">Close</a> */}
               <AiFillCloseCircle size="25" className="popup-modal-dismiss btn-close" />
             </div>
           </div>
@@ -230,7 +239,7 @@ class Projects extends Component {
 
             <div className="link-box">
               <a href="https://github.com/IosifDobos/Web-Mapping-Assignment" target="_blank" rel="noopener noreferrer">Details</a>
-              <a className="popup-modal-dismiss">Close</a>
+              {/* <a className="popup-modal-dismiss">Close</a> */}
               <AiFillCloseCircle size="25" className="popup-modal-dismiss btn-close" />
             </div>
           </div>
