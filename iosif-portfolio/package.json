@@ -2,7 +2,7 @@
   "name": "iosif-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://IosifDobos.github.io/Iosif-Portfolio",
+  "homepage": "https://IosifDobos.github.io/Iosif-Portfolio",
   "proxy": "https://IosifDobos.github.io/Iosif-Portfolio",
   "dependencies": {
     "@material-ui/core": "^4.11.0",
@@ -17,7 +17,8 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-ga": "^3.1.2",
-    "react-scripts": "^3.4.3",
+    "react-icons": "^3.11.0",
+    "react-scripts": "^4.0.0",
     "react-swipeable-views": "^0.13.9",
     "yargs-parser": "^20.0.0"
   },

@@ -1,17 +1,21 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
+import {
+    AiFillFacebook,
+    AiFillGithub,
+    AiFillGitlab,
+    AiFillInstagram,
+    AiFillTwitterSquare,
+    AiFillMediumSquare,
+    AiFillLinkedin
+} from 'react-icons/ai';
 
-class Home extends Component{
-
-    render(){
-        
+class Home extends Component {
+    render() {
         return (
             <header id="home">
-
                 <nav id="nav-wrap">
-
                     <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
                     <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
-
                     <ul id="nav" className="nav">
                         <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
                         <li><a className="smoothscroll" href="#about">About</a></li>
@@ -21,9 +25,7 @@ class Home extends Component{
                         <li><a className="smoothscroll" href="#contact">Contact</a></li>
                         <li><a className="smoothscroll" href="#profile">Profile</a></li>
                     </ul>
-
                 </nav>
-
                 <div className="row banner">
                     <div className="banner-text">
                         <h1 className="responsive-headline">I'm Iosif B. Dobos.</h1>
@@ -38,39 +40,39 @@ class Home extends Component{
                         <ul className="social">
                             <li>
                                 <a href="http://facebook.com/bogdandobos" target="_blank" rel="noopener noreferrer">
-                                    <i className="fa fa-facebook"></i>
+                                    <AiFillFacebook size="40" />
                                 </a>
                             </li>
                             <li>
                                 <a href="http://instagram.com/josephberelly" target="_blank" rel="noopener noreferrer">
-                                    <i className="fa fa-instagram"></i>
+                                    <AiFillInstagram size="40" />
                                 </a>
                             </li>
                             <li>
                                 <a href="http://twitter.com" target="_blank" rel="noopener noreferrer">
-                                    <i className="fa fa-twitter"></i>
+                                    <AiFillTwitterSquare size="40" />
                                 </a>
                             </li>
                             <li>
                                 <a href="https://www.linkedin.com/in/iosif-dobos/" target="_blank" rel="noopener noreferrer">
-                                    <i className="fa fa-linkedin"></i>
+                                    <AiFillLinkedin size="40" />
                                 </a>
                             </li>
                             <li>
                                 <a href="http://github.com/IosifDobos" target="_blank" rel="noopener noreferrer">
-                                    <i className="fa fa-github"></i>
+                                    <AiFillGithub size="40" size="40" />
                                 </a>
                             </li>
-                            {/* <li>
+                            <li>
                                 <a href="https://gitlab.com/IosifDobos" target="_blank" rel="noopener noreferrer">
-                                    <i className="fa fa-gitlab"></i>
+                                    <AiFillGitlab size="40" />
                                 </a>
                             </li>
                             <li>
                                 <a href="http://medium.com/" target="_blank" rel="noopener noreferrer">
-                                    <i className="fa fa-medium"></i>
+                                    <AiFillMediumSquare size="40" />
                                 </a>
-                            </li> */}
+                            </li>
                         </ul>
                         <hr />
                         <ul className="btn-toolbar">
@@ -84,13 +86,11 @@ class Home extends Component{
                             </a>
                         </ul>
                     </div>
-                    
+
                 </div>
-                
                 <p className="scrolldown">
                     <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
                 </p>
-
             </header>
         )
     }
