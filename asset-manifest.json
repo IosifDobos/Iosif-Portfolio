@@ -1,27 +1,29 @@
 {
   "files": {
-    "main.css": "/Iosif-Portfolio/static/css/main.8fef1d7e.chunk.css",
-    "main.js": "/Iosif-Portfolio/static/js/main.87820525.chunk.js",
-    "main.js.map": "/Iosif-Portfolio/static/js/main.87820525.chunk.js.map",
-    "runtime-main.js": "/Iosif-Portfolio/static/js/runtime-main.e2eea88f.js",
-    "runtime-main.js.map": "/Iosif-Portfolio/static/js/runtime-main.e2eea88f.js.map",
-    "static/js/2.2eae7eaf.chunk.js": "/Iosif-Portfolio/static/js/2.2eae7eaf.chunk.js",
-    "static/js/2.2eae7eaf.chunk.js.map": "/Iosif-Portfolio/static/js/2.2eae7eaf.chunk.js.map",
+    "main.css": "/Iosif-Portfolio/static/css/main.c74be306.chunk.css",
+    "main.js": "/Iosif-Portfolio/static/js/main.be9878be.chunk.js",
+    "main.js.map": "/Iosif-Portfolio/static/js/main.be9878be.chunk.js.map",
+    "runtime-main.js": "/Iosif-Portfolio/static/js/runtime-main.36155217.js",
+    "runtime-main.js.map": "/Iosif-Portfolio/static/js/runtime-main.36155217.js.map",
+    "static/js/2.7bd31c14.chunk.js": "/Iosif-Portfolio/static/js/2.7bd31c14.chunk.js",
+    "static/js/2.7bd31c14.chunk.js.map": "/Iosif-Portfolio/static/js/2.7bd31c14.chunk.js.map",
     "index.html": "/Iosif-Portfolio/index.html",
-    "precache-manifest.47ea992d91262e78f8f60b5fedeb332f.js": "/Iosif-Portfolio/precache-manifest.47ea992d91262e78f8f60b5fedeb332f.js",
-    "service-worker.js": "/Iosif-Portfolio/service-worker.js",
-    "static/css/main.8fef1d7e.chunk.css.map": "/Iosif-Portfolio/static/css/main.8fef1d7e.chunk.css.map",
-    "static/js/2.2eae7eaf.chunk.js.LICENSE.txt": "/Iosif-Portfolio/static/js/2.2eae7eaf.chunk.js.LICENSE.txt",
-    "static/media/github_image.png": "/Iosif-Portfolio/static/media/github_image.c7ff3dfe.png",
-    "static/media/iosif-portfolio.png": "/Iosif-Portfolio/static/media/iosif-portfolio.8e9e0826.png",
-    "static/media/loading.png": "/Iosif-Portfolio/static/media/loading.ff4cbddf.png",
-    "static/media/medieval-game.png": "/Iosif-Portfolio/static/media/medieval-game.af7ea680.png",
-    "static/media/smart-nurse.png": "/Iosif-Portfolio/static/media/smart-nurse.66f9bbe9.png"
+    "static/css/main.c74be306.chunk.css.map": "/Iosif-Portfolio/static/css/main.c74be306.chunk.css.map",
+    "static/js/2.7bd31c14.chunk.js.LICENSE.txt": "/Iosif-Portfolio/static/js/2.7bd31c14.chunk.js.LICENSE.txt",
+    "static/media/github-users.edd4141e.png": "/Iosif-Portfolio/static/media/github-users.edd4141e.png",
+    "static/media/github_image.0aa52c97.png": "/Iosif-Portfolio/static/media/github_image.0aa52c97.png",
+    "static/media/iosif-portfolio.d224766c.png": "/Iosif-Portfolio/static/media/iosif-portfolio.d224766c.png",
+    "static/media/library-website.75ffdf1f.jpeg": "/Iosif-Portfolio/static/media/library-website.75ffdf1f.jpeg",
+    "static/media/loading.8ac1dff0.png": "/Iosif-Portfolio/static/media/loading.8ac1dff0.png",
+    "static/media/medieval-game.4c624366.png": "/Iosif-Portfolio/static/media/medieval-game.4c624366.png",
+    "static/media/smart-nurse.d9a59f5c.png": "/Iosif-Portfolio/static/media/smart-nurse.d9a59f5c.png",
+    "static/media/strapi-backend.a2630890.png": "/Iosif-Portfolio/static/media/strapi-backend.a2630890.png",
+    "static/media/vintage-shop.760107d7.png": "/Iosif-Portfolio/static/media/vintage-shop.760107d7.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.e2eea88f.js",
-    "static/js/2.2eae7eaf.chunk.js",
-    "static/css/main.8fef1d7e.chunk.css",
-    "static/js/main.87820525.chunk.js"
+    "static/js/runtime-main.36155217.js",
+    "static/js/2.7bd31c14.chunk.js",
+    "static/css/main.c74be306.chunk.css",
+    "static/js/main.be9878be.chunk.js"
   ]
 }
