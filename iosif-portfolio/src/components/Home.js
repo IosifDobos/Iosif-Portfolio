@@ -60,7 +60,7 @@ class Home extends Component {
                             </li>
                             <li>
                                 <a href="http://github.com/IosifDobos" target="_blank" rel="noopener noreferrer">
-                                    <AiFillGithub size="40" size="40" />
+                                    <AiFillGithub size="40" />
                                 </a>
                             </li>
                             <li>

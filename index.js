@@ -1,15 +1,30 @@
-const express = require('express')
-const bodyParser = require('body-parser')
-const nodemailer = require('nodemailer')
-const { request } = require('http')
-const app = express()
+const path = require('path');
+const express = require('express');
+const bodyParser = require('body-parser');
+const cookieParser = require('cookie-parser');
+const transporter = require('./config');
+// const mailer = require('nodemailer');
+const dotenv = require('dotenv');
+dotenv.config();
 
-app.use(bodyParser.json())
-app.use(bodyParser.urlencoded({ extended: false }))
 
-app.post('/api/form', (req, res) => {
-    nodemailer.createTestAccount( (err, account) => {
-        const htmlEmail = `
+const app = express();
+
+const buildPath = path.join(__dirname, '..', 'build');
+app.use(express.static(buildPath));
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
+app.use(cookieParser());
+
+
+app.post("/api/send", (req, res) => {
+    console.log(req.body);
+    try {
+        const mailOptions = {
+            from: req.body.email,
+            to: "iosifdobos22@gmail.com",
+            subject: req.body.subject,
+            html: `
             <h3>Contact Details</h3>
             <ul>
                 <li>Name: ${req.body.name}</li>
@@ -18,38 +33,21 @@ app.post('/api/form', (req, res) => {
             <h3>Message</h3>
             <p>${req.body.message}</p>
         `
+        };
 
-        let transporter = nodemailer.createTransport({
-            host: 'smtp.etheral.email',
-            port: 587,
-            auth: {
-                user: 'francesca.bahringer@ethereal.email',
-                pass: '62s7aagGA9WvuWxzyw'
+        transporter.sendMail(mailOptions, (error, response) => {
+            if (error) {
+                console.log(error);
+            } else {
+                console.log("Email sent successfully");
             }
+            transporter.close();
         })
+    } catch (error) {
+        console.log(error);
+    }
+});
 
-        let mailOptions = {
-            from: 'test@testaccount.com',
-            to: 'francesca.bahringer@ethereal.email',
-            replyTo: 'test@testaccount.com',
-            subject: 'New message',
-            text: req.body.message,
-            html: htmlEmail
-        }
-        
-        transporter.sendMail(mailOptions, (err, info) => {
-            if(err){
-                return console.log(err)
-            }
-
-            console.log('Message sent: $s', info.message)
-            console.log('Message URL: $s', nodemailer.getTestMessageUrl(info))
-        })
-    })
-})
-
-const PORT = process.env.PORT || 3001
-
-app.listen(PORT, () => {
-    console.log(`Server listening on port ${PORT}`)
+app.listen(5000, () => {
+    console.log("Server running on port 5000");
 })
