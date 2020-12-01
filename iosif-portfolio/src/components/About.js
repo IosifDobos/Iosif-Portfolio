@@ -18,7 +18,7 @@ class About extends Component {
                         <h2>About Me</h2>
                         <p>
                             I'm a graduate student at Technological University Dublin with a BSc degree in Computer Science.
-                            I have pursued my internship at Revenue where I have been involved in three internal
+                            I have pursued my internship at Revenue where I have been involved on different
                             projects working with programming languages such as AngularJS, jQuery, JavaScript as frontend,
                             Java as backend and Jenkins to test and deploy the applications. I love to learn and explore new technologies
                             and often amazed by how technology has grown in the recent years.
@@ -28,10 +28,10 @@ class About extends Component {
                                 <h2>Contact Details</h2>
                                 <p className="address">
                                     <span>Iosif B. Dobos</span><br />
-                                    <span>Cedarwood Rise<br />
-                                        Glasnevin, Dublin 11
+                                    <span>
+                                        Dublin, Ireland
                                     </span><br />
-                                    <span>+353894199006</span><br />
+                                    <span>+353894199005</span><br />
                                     <span>iosifdobos22@gmail.com</span>
                                 </p>
                             </div>

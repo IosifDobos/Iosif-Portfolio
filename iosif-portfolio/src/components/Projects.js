@@ -2,13 +2,13 @@ import React, { Component } from 'react';
 import { AiFillCloseCircle } from 'react-icons/ai';
 // import { FaTag } from 'react-icons/fa'
 
-import smartNurse from '../assets/img/smart-nurse.png'
-import resumeImg from '../assets/img/iosif-portfolio.png';
+import smImg from '../assets/img/IMG_0004.jpeg';
+import resumeImg from '../assets/img/IMG_0009.jpeg';
 import medievalGame from '../assets/img/medieval-game.png';
 import bookImg from '../assets/img/library-website.jpeg';
-import loadingImg from '../assets/img/loading.png';
-import githubImg from '../assets/img/github-users.png';
-import vintageImg from '../assets/img/vintage-shop.png'
+import loadingImg from '../assets/img/IMG_0005.jpeg';
+import githubImg from '../assets/img/IMG_0011.jpeg';
+import vintageImg from '../assets/img/IMG_0012.jpeg'
 import strapiImg from '../assets/img/strapi-backend.png';
 
 
@@ -30,7 +30,7 @@ class Projects extends Component {
                 <div className="item-wrap">
 
                   <a href="#modal-01" title="Smart-Nurse">
-                    <img alt="Smart-Nurse" src={smartNurse} />
+                    <img alt="Smart-Nurse" src={smImg} />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
                         <h5>Smart-Nurse</h5>
@@ -52,51 +52,6 @@ class Projects extends Component {
                       <div className="portfolio-item-meta">
                         <h5>Iosif-Portfolio</h5>
                         <p>React resume website</p>
-                      </div>
-                    </div>
-                    <div className="link-icon"><i className="fa fa-link"></i></div>
-                  </a>
-                </div>
-              </div>
-
-              <div className="columns portfolio-item">
-                <div className="item-wrap">
-                  <a href="#modal-03" title="JOE Medieval Game">
-                    <img alt="JOE Medieval Game" src={medievalGame} />
-                    <div className="overlay">
-                      <div className="portfolio-item-meta">
-                        <h5>JOE Medieval Game</h5>
-                        <p>3D unity game</p>
-                      </div>
-                    </div>
-                    <div className="link-icon"><i className="fa fa-link"></i></div>
-                  </a>
-                </div>
-              </div>
-
-              <div className="columns portfolio-item">
-                <div className="item-wrap">
-                  <a href="#modal-04" title="Book Reservation Website">
-                    <img alt="Book Reservation Website" src={bookImg} />
-                    <div className="overlay">
-                      <div className="portfolio-item-meta">
-                        <h5>Book Reservation Website</h5>
-                        <p>A Book Reservation website using HTML, CSS and PHP</p>
-                      </div>
-                    </div>
-                    <div className="link-icon"><i className="fa fa-link"></i></div>
-                  </a>
-                </div>
-              </div>
-
-              <div className="columns portfolio-item">
-                <div className="item-wrap">
-                  <a href="#modal-05" title="Worldmap 2019-2020">
-                    <img alt="Worldmap 2019-2020" src={loadingImg} />
-                    <div className="overlay">
-                      <div className="portfolio-item-meta">
-                        <h5>Worldmap 2019-2020</h5>
-                        <p>Webiste that uses map location created on django framework</p>
                       </div>
                     </div>
                     <div className="link-icon"><i className="fa fa-link"></i></div>
@@ -149,12 +104,57 @@ class Projects extends Component {
                 </div>
               </div>
 
+              <div className="columns portfolio-item">
+                <div className="item-wrap">
+                  <a href="#modal-03" title="JOE Medieval Game">
+                    <img alt="JOE Medieval Game" src={medievalGame} />
+                    <div className="overlay">
+                      <div className="portfolio-item-meta">
+                        <h5>JOE Medieval Game</h5>
+                        <p>3D unity game</p>
+                      </div>
+                    </div>
+                    <div className="link-icon"><i className="fa fa-link"></i></div>
+                  </a>
+                </div>
+              </div>
+
+              <div className="columns portfolio-item">
+                <div className="item-wrap">
+                  <a href="#modal-04" title="Book Reservation Website">
+                    <img alt="Book Reservation Website" src={bookImg} />
+                    <div className="overlay">
+                      <div className="portfolio-item-meta">
+                        <h5>Book Reservation Website</h5>
+                        <p>A Book Reservation website using HTML, CSS and PHP</p>
+                      </div>
+                    </div>
+                    <div className="link-icon"><i className="fa fa-link"></i></div>
+                  </a>
+                </div>
+              </div>
+
+              <div className="columns portfolio-item">
+                <div className="item-wrap">
+                  <a href="#modal-05" title="Worldmap 2019-2020">
+                    <img alt="Worldmap 2019-2020" src={loadingImg} />
+                    <div className="overlay">
+                      <div className="portfolio-item-meta">
+                        <h5>Worldmap 2019-2020</h5>
+                        <p>Webiste that uses map location created on django framework</p>
+                      </div>
+                    </div>
+                    <div className="link-icon"><i className="fa fa-link"></i></div>
+                  </a>
+                </div>
+              </div>
+
             </div>
           </div>
 
           {/* Modal Popup */}
           <div id="modal-01" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" alt="Smart-Nurse" src={smartNurse} />
+            <img className="scale-with-grid" alt="Smart-Nurse" src={smImg} />
 
             <div className="description-box">
               <h4>Smart-Nurse</h4>
