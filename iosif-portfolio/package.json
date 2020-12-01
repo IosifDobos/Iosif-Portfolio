@@ -2,8 +2,6 @@
   "name": "iosif-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://IosifDobos.github.io/Iosif-Portfolio",
-  "proxy": "https://IosifDobos.github.io/Iosif-Portfolio",
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
