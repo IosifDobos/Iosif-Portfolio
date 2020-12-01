@@ -22,7 +22,7 @@ app.post("/api/send", (req, res) => {
     try {
         const mailOptions = {
             from: req.body.email,
-            to: "iosifdobos22@gmail.com",
+            to: process.env.email, //"iosifdobos22@gmail.com",
             subject: req.body.subject,
             html: `
             <h3>Contact Details</h3>

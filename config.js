@@ -6,8 +6,8 @@ var transporter = mailer.createTransport({
     service: 'gmail',
     port: 465,
     auth: {
-        user: "iosifdobos22@gmail.com", //process.env.email,
-        pass: "Teiubescurato22"//process.env.password
+        user: process.env.email,
+        pass: process.env.password
     }
 });
 
