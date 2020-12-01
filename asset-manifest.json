@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/Iosif-Portfolio/static/css/main.c74be306.chunk.css",
-    "main.js": "/Iosif-Portfolio/static/js/main.f8415413.chunk.js",
-    "main.js.map": "/Iosif-Portfolio/static/js/main.f8415413.chunk.js.map",
-    "runtime-main.js": "/Iosif-Portfolio/static/js/runtime-main.36155217.js",
-    "runtime-main.js.map": "/Iosif-Portfolio/static/js/runtime-main.36155217.js.map",
-    "static/js/2.6f967859.chunk.js": "/Iosif-Portfolio/static/js/2.6f967859.chunk.js",
-    "static/js/2.6f967859.chunk.js.map": "/Iosif-Portfolio/static/js/2.6f967859.chunk.js.map",
-    "index.html": "/Iosif-Portfolio/index.html",
-    "static/css/main.c74be306.chunk.css.map": "/Iosif-Portfolio/static/css/main.c74be306.chunk.css.map",
-    "static/js/2.6f967859.chunk.js.LICENSE.txt": "/Iosif-Portfolio/static/js/2.6f967859.chunk.js.LICENSE.txt",
-    "static/media/IMG_0004.2c93aa3e.jpeg": "/Iosif-Portfolio/static/media/IMG_0004.2c93aa3e.jpeg",
-    "static/media/IMG_0005.92b77e8a.jpeg": "/Iosif-Portfolio/static/media/IMG_0005.92b77e8a.jpeg",
-    "static/media/IMG_0009.59b34cca.jpeg": "/Iosif-Portfolio/static/media/IMG_0009.59b34cca.jpeg",
-    "static/media/IMG_0011.885296f3.jpeg": "/Iosif-Portfolio/static/media/IMG_0011.885296f3.jpeg",
-    "static/media/IMG_0012.688f6c7e.jpeg": "/Iosif-Portfolio/static/media/IMG_0012.688f6c7e.jpeg",
-    "static/media/github_image.0aa52c97.png": "/Iosif-Portfolio/static/media/github_image.0aa52c97.png",
-    "static/media/library-website.75ffdf1f.jpeg": "/Iosif-Portfolio/static/media/library-website.75ffdf1f.jpeg",
-    "static/media/medieval-game.02251bd5.png": "/Iosif-Portfolio/static/media/medieval-game.02251bd5.png",
-    "static/media/strapi-backend.a2630890.png": "/Iosif-Portfolio/static/media/strapi-backend.a2630890.png"
+    "main.css": "/static/css/main.c74be306.chunk.css",
+    "main.js": "/static/js/main.bda34a00.chunk.js",
+    "main.js.map": "/static/js/main.bda34a00.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.4fcb6c71.js",
+    "runtime-main.js.map": "/static/js/runtime-main.4fcb6c71.js.map",
+    "static/js/2.6f967859.chunk.js": "/static/js/2.6f967859.chunk.js",
+    "static/js/2.6f967859.chunk.js.map": "/static/js/2.6f967859.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.c74be306.chunk.css.map": "/static/css/main.c74be306.chunk.css.map",
+    "static/js/2.6f967859.chunk.js.LICENSE.txt": "/static/js/2.6f967859.chunk.js.LICENSE.txt",
+    "static/media/IMG_0004.2c93aa3e.jpeg": "/static/media/IMG_0004.2c93aa3e.jpeg",
+    "static/media/IMG_0005.92b77e8a.jpeg": "/static/media/IMG_0005.92b77e8a.jpeg",
+    "static/media/IMG_0009.59b34cca.jpeg": "/static/media/IMG_0009.59b34cca.jpeg",
+    "static/media/IMG_0011.885296f3.jpeg": "/static/media/IMG_0011.885296f3.jpeg",
+    "static/media/IMG_0012.688f6c7e.jpeg": "/static/media/IMG_0012.688f6c7e.jpeg",
+    "static/media/github_image.0aa52c97.png": "/static/media/github_image.0aa52c97.png",
+    "static/media/library-website.75ffdf1f.jpeg": "/static/media/library-website.75ffdf1f.jpeg",
+    "static/media/medieval-game.02251bd5.png": "/static/media/medieval-game.02251bd5.png",
+    "static/media/strapi-backend.a2630890.png": "/static/media/strapi-backend.a2630890.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.36155217.js",
+    "static/js/runtime-main.4fcb6c71.js",
     "static/js/2.6f967859.chunk.js",
     "static/css/main.c74be306.chunk.css",
-    "static/js/main.f8415413.chunk.js"
+    "static/js/main.bda34a00.chunk.js"
   ]
 }
