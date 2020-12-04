@@ -3,57 +3,57 @@ import axios from 'axios';
 
 const Contact = () => {
 
-   const [name, setName] = useState('');
-   const [email, setEmail] = useState('');
-   const [subject, setSubject] = useState('');
-   const [message, setMessage] = useState('');
-   const [loading, setLoading] = useState(null);
+   // const [name, setName] = useState('');
+   // const [email, setEmail] = useState('');
+   // const [subject, setSubject] = useState('');
+   // const [message, setMessage] = useState('');
+   // const [loading, setLoading] = useState(null);
 
 
-   const handleChange = (e) => {
-      e.preventDefault();
-      // this.setState({ [e.target.contactName]: e.target.value })
-      if (e.target.id === "name") {
-         setName(e.target.value);
-      }
-      else if (e.target.id === "email") {
-         setEmail(e.target.value);
-      }
-      else if (e.target.id === "subject") {
-         setSubject(e.target.value)
-      } else {
-         setMessage(e.target.value);
-      }
-   }
+   // const handleChange = (e) => {
+   //    e.preventDefault();
+   //    // this.setState({ [e.target.contactName]: e.target.value })
+   //    if (e.target.id === "name") {
+   //       setName(e.target.value);
+   //    }
+   //    else if (e.target.id === "email") {
+   //       setEmail(e.target.value);
+   //    }
+   //    else if (e.target.id === "subject") {
+   //       setSubject(e.target.value)
+   //    } else {
+   //       setMessage(e.target.value);
+   //    }
+   // }
 
-   const handleSubmit = (e) => {
-      e.preventDefault();
+   // const handleSubmit = (e) => {
+   //    e.preventDefault();
 
-      let data = {
-         name,
-         email,
-         subject,
-         message,
-      }
-      console.log("Data: ", data);
+   //    let data = {
+   //       name,
+   //       email,
+   //       subject,
+   //       message,
+   //    }
+   //    console.log("Data: ", data);
 
-      axios.post("/api/send", data)
-         .then(response => {
-            console.log(response);
-            setLoading(response.data);
-            resetForm();
-         })
-         .catch(() => {
-            setLoading({
-               success: false,
-               message: 'Something went wrong. Try again later'
-            });
-         })
-   };
+   //    axios.post("/api/send", data)
+   //       .then(response => {
+   //          console.log(response);
+   //          setLoading(response.data);
+   //          resetForm();
+   //       })
+   //       .catch(() => {
+   //          setLoading({
+   //             success: false,
+   //             message: 'Something went wrong. Try again later'
+   //          });
+   //       })
+   // };
 
-   const resetForm = () => {
+   // const resetForm = () => {
 
-   }
+   // }
 
    return (
       <section id="contact">
@@ -77,51 +77,40 @@ const Contact = () => {
          <div className="row">
             <div className="eight columns">
 
-               <form onSubmit={handleSubmit}>
+               <form action="" method="post" name="contactForm" id="contactForm">
                   <fieldset>
 
                      <div>
                         <label htmlFor="name">Name <span className="required">*</span></label>
-                        <input type="text" size="35" id="name" name="name" value={name}
-                           onChange={handleChange} />
+                        <input type="text" size="35" id="name" name="name" />
                      </div>
 
                      <div>
                         <label htmlFor="email">Email <span className="required">*</span></label>
-                        <input type="email" size="35" id="email" name="email" value={email}
-                           onChange={handleChange} />
+                        <input type="email" size="35" id="email" name="email" />
                      </div>
 
                      <div>
                         <label htmlFor="subject">Subject</label>
-                        <input type="text" size="35" id="subject" name="subject" value={subject}
-                           onChange={handleChange} />
+                        <input type="text" size="35" id="subject" name="subject" />
                      </div>
 
                      <div>
                         <label htmlFor="sessage">Message <span className="required">*</span></label>
-                        <textarea cols="50" rows="15" id="sessage" name="sessage" value={message}
-                           onChange={handleChange}></textarea>
+                        <textarea cols="50" rows="15" id="sessage" name="sessage" ></textarea>
                      </div>
 
                      <div>
-                        <button type="submit" className="submit" onSubmit={() => handleSubmit()}>Submit</button>
+                        <button type="submit" className="submit">Submit</button>
                         <span id="image-loader">
                            <img alt="" src="images/loader.gif" />
                         </span>
                      </div>
                   </fieldset>
                </form>
-               <div style={{ color: "red" }}>
-                  {loading && (
-                     <p className={`${loading.success ? 'success' : 'error'}`}>
-                        {loading.message}
-                     </p>
-                  )}
-                  <div id="message-warning"> Error boy</div>
-                  <div id="message-success">
-                     <i className="fa fa-check"></i>Your message was sent, thank you!<br />
-                  </div>
+               <div id="message-warning"> Error boy</div>
+               <div id="message-success">
+                  <i className="fa fa-check"></i>Your message was sent, thank you!<br />
                </div>
             </div>
 
