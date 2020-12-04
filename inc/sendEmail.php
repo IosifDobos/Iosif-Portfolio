@@ -6,10 +6,10 @@ $siteOwnersEmail = 'iosifdobos22@gmail.com';
 
 if($_POST) {
 
-   $name = trim(stripslashes($_POST['contactName']));
-   $email = trim(stripslashes($_POST['contactEmail']));
-   $subject = trim(stripslashes($_POST['contactSubject']));
-   $contact_message = trim(stripslashes($_POST['contactMessage']));
+   $name = trim(stripslashes($_POST['name']));
+   $email = trim(stripslashes($_POST['email']));
+   $subject = trim(stripslashes($_POST['subject']));
+   $contact_message = trim(stripslashes($_POST['message']));
 
    // Check Name
 	if (strlen($name) < 2) {
