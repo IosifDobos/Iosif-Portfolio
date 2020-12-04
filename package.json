@@ -8,7 +8,9 @@
     "start": "node index.js",
     "backend": "nodemon index.js",
     "frontend": "npm run front --prefix iosif-portfolio",
-    "dev": "concurrently \"npm run backend\" \"npm run start --prefix iosif-portfolio\""
+    "build": "concurrently \"npm run backend\" \"npm run start --prefix iosif-portfolio\"",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
