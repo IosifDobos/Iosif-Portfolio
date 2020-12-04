@@ -75,13 +75,13 @@ class Home extends Component {
                             </li>
                         </ul>
                         <hr />
-                        <ul className="btn-toolbar">
-                            <a href="#portfolio" type="button" className="button btn project-btn">
-                                {/* <i className="fa fa-github"></i> */}
+                        <ul className="social" >
+                            <a href="#portfolio" className="button btn github-btn">
+                                <i className="fa fa-github"></i>
                                 View Projects
                             </a>
-                            <a href="#resume" type="button" className="button btn project-btn resume-btn">
-                                {/* <i className="fa fa-book"></i> */}
+                            <a href="#resume" type="button" className="button btn project-btn">
+                                <i className="fa fa-book"></i>
                                 My Resume
                             </a>
                         </ul>

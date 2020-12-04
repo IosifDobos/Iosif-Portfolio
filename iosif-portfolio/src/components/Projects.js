@@ -6,7 +6,7 @@ import smImg from '../assets/img/IMG_0004.jpeg';
 import resumeImg from '../assets/img/IMG_0009.jpeg';
 import medievalGame from '../assets/img/medieval-game.png';
 import bookImg from '../assets/img/library-website.jpeg';
-import loadingImg from '../assets/img/IMG_0005.jpeg';
+import wmapImg from '../assets/img/IMG_0001.jpg';
 import githubImg from '../assets/img/IMG_0011.jpeg';
 import vintageImg from '../assets/img/IMG_0012.jpeg'
 import strapiImg from '../assets/img/strapi-backend.png';
@@ -137,7 +137,7 @@ class Projects extends Component {
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-05" title="Worldmap 2019-2020">
-                    <img alt="Worldmap 2019-2020" src={loadingImg} />
+                    <img alt="Worldmap 2019-2020" src={wmapImg} />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
                         <h5>Worldmap 2019-2020</h5>
@@ -229,7 +229,7 @@ class Projects extends Component {
           </div>
 
           <div id="modal-05" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" alt="Worldmap 2019-2020" src={loadingImg} />
+            <img className="scale-with-grid" alt="Worldmap 2019-2020" src={wmapImg} />
 
             <div className="description-box">
               <h4>Worldmap 2019-2020</h4>
